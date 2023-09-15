@@ -16,8 +16,9 @@ public class ContaTerminal {
         //fechando o scanner
         scanner.close();
         
-        String nomeCliente = "Vinicius Badazoni";
-        String saldo = "5.320,35";
+        //usando o main args com os valores definidos no arquivo de configuração launch.json
+        String nomeCliente = args[0];
+        String saldo = args[1];
         
         //mensagem que será exibida para o usuário
         System.out.println("Olá, Sr(a) " + nomeCliente + ", obrigado por criar uma conta em nosso banco. Sua agência é " + numeroAgencia + " ,conta: " + numeroConta + ".\n Seu saldo disponível é: R$" + saldo);

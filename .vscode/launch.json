@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         {
             "type": "java",
             "name": "Current File",
@@ -15,8 +16,11 @@
             "name": "ContaTerminal",
             "request": "launch",
             "mainClass": "ContaTerminal",
-            "projectName": "conta-banco_ab7fd0c9"
-            
+            "projectName": "conta-banco_ab7fd0c9",
+            "args": [
+                "Vinicius Badazoni",
+                "12,500,35"
+            ]
         }
     ]
 }
